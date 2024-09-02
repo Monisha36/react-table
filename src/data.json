@@ -1,0 +1,137 @@
+[
+  {
+    "firstName": "John",
+    "middleName": "A.",
+    "lastName": "Doe",
+    "age": 20,
+    "phone": ["123-456-7890", "098-765-4321"],
+    "date_of_birth": "2003-05-12",
+    "date_of_admission": "2020-09-01",
+    "subRows": [
+      {
+        "course": "Math 101",
+        "instructor": "Dr. Smith",
+        "semester": "Fall 2021",
+        "phone": ["321-654-0987", "876-543-2109"],
+        "date_of_birth": "2003-05-12",
+        "date_of_admission": "2020-09-01"
+      },
+      {
+        "course": "History 202",
+        "instructor": "Prof. Johnson",
+        "semester": "Spring 2022",
+        "phone": ["321-654-0987", "876-543-2109"],
+        "date_of_birth": "2003-05-12",
+        "date_of_admission": "2020-09-01"
+      }
+    ]
+  },
+  {
+    "firstName": "Jane",
+    "middleName": "B.",
+    "lastName": "Smith",
+    "age": 22,
+    "phone": ["234-567-8901", "987-654-3210"],
+    "date_of_birth": "2001-08-19",
+    "date_of_admission": "2019-01-15",
+    "subRows": [
+      {
+        "course": "Biology 303",
+        "instructor": "Dr. Brown",
+        "semester": "Fall 2022",
+        "phone": ["432-567-8901", "987-654-3210"],
+        "date_of_birth": "2001-08-19",
+        "date_of_admission": "2019-01-15"
+      },
+      {
+        "course": "Chemistry 404",
+        "instructor": "Dr. Green",
+        "semester": "Spring 2023",
+        "phone": ["432-567-8901", "987-654-3210"],
+        "date_of_birth": "2001-08-19",
+        "date_of_admission": "2019-01-15"
+      }
+    ]
+  },
+  {
+    "firstName": "Alice",
+    "middleName": "C.",
+    "lastName": "Johnson",
+    "age": 21,
+    "phone": ["345-678-9012", "876-543-2109"],
+    "date_of_birth": "2002-11-23",
+    "date_of_admission": "2021-03-05",
+    "subRows": [
+      {
+        "course": "Physics 505",
+        "instructor": "Dr. White",
+        "semester": "Fall 2022",
+        "phone": ["543-678-9012", "876-543-2109"],
+        "date_of_birth": "2002-11-23",
+        "date_of_admission": "2021-03-05"
+      },
+      {
+        "course": "Computer Science 606",
+        "instructor": "Dr. Black",
+        "semester": "Spring 2024",
+        "phone": ["543-678-9012", "876-543-2109"],
+        "date_of_birth": "2002-11-23",
+        "date_of_admission": "2021-03-05"
+      }
+    ]
+  },
+  {
+    "firstName": "Bob",
+    "middleName": "D.",
+    "lastName": "Lee",
+    "age": 23,
+    "phone": ["456-789-0123", "765-432-1098"],
+    "date_of_birth": "1999-06-30",
+    "date_of_admission": "2018-07-22",
+    "subRows": [
+      {
+        "course": "Engineering 707",
+        "instructor": "Dr. Adams",
+        "semester": "Fall 2023",
+        "phone": ["654-789-0123", "765-432-1098"],
+        "date_of_birth": "1999-06-30",
+        "date_of_admission": "2018-07-22"
+      },
+      {
+        "course": "Statistics 808",
+        "instructor": "Dr. Lewis",
+        "semester": "Spring 2024",
+        "phone": ["654-789-0123", "765-432-1098"],
+        "date_of_birth": "1999-06-30",
+        "date_of_admission": "2018-07-22"
+      }
+    ]
+  },
+  {
+    "firstName": "Emma",
+    "middleName": "E.",
+    "lastName": "Brown",
+    "age": 24,
+    "phone": ["567-890-1234", "654-321-0987"],
+    "date_of_birth": "1998-03-14",
+    "date_of_admission": "2017-11-01",
+    "subRows": [
+      {
+        "course": "Literature 909",
+        "instructor": "Dr. King",
+        "semester": "Fall 2022",
+        "phone": ["765-890-1234", "654-321-0987"],
+        "date_of_birth": "1998-03-14",
+        "date_of_admission": "2017-11-01"
+      },
+      {
+        "course": "Philosophy 1010",
+        "instructor": "Dr. Scott",
+        "semester": "Spring 2023",
+        "phone": ["765-890-1234", "654-321-0987"],
+        "date_of_birth": "1998-03-14",
+        "date_of_admission": "2017-11-01"
+      }
+    ]
+  }
+]
