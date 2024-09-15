@@ -1,15 +1,22 @@
-// src/App.js
-import React from "react";
-import BasicTable from "../src/componets/basic-table";
-import data from "./data.json";
+import { useState } from "react";
 
-function App() {
-  return (
-    <div>
-      <h1>Expandable Table</h1>
-      <BasicTable data={data} />
-    </div>
+export default function App(){
+  const [count, setCount] = useState(0);
+
+  function handleClick(){
+    setCount(count+1);
+  }
+
+  return(
+<div>
+  <h1>Counting the Clicks</h1>
+  <MyButton count={count} onClick={handleClick}/>
+</div>
   );
 }
 
-export default App;
+function MyButton({count, onClick}){
+  return(
+  <button onClick={onClick}>Clicked {count} times</button>
+);
+}
