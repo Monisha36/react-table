@@ -1,0 +1,26 @@
+.centered-table {
+    margin: 40px auto;
+    width: 100%; 
+    border-collapse: collapse;
+  }
+  
+  .centered-table th,
+  .centered-table td {
+    text-align: center; 
+    border: 1px solid #ae9090;
+    padding: 8px;
+  }
+  
+  .centered-table th {
+    background-color: #ae9090;
+    font-weight: bold;
+  }
+  
+  .centered-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .centered-table tr:hover {
+    background-color: #ddd;
+  }
+  
